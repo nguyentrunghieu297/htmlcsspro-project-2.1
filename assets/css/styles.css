@@ -552,3 +552,142 @@ button {
 }
 
 /* ===== Feedback ===== */
+
+.feedback {
+    margin-top: 10px;
+}
+
+.feedback .body {
+    display: flex;
+    justify-content: space-between;
+    height: 481px;
+}
+
+.feedback .body .feedback-info {
+    width: 36%;
+    align-self: center;
+}
+
+.feedback .body .feedback-info .comment {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .body .feedback-info .comment-by {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback .body .feedback-info .comment-by::before {
+    display: inline-block;
+    content: "";
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback .body .feedback-info .comment-by strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .body .feedback-info .cta-btn {
+    margin-top: 52px;
+}
+
+.feedback .body .feedback-info .forward-btn {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(42, 201, 191, 1);
+    border-radius: 50%;
+}
+
+.feedback .body .feedback-info .forward-btn {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(42, 201, 191, 1);
+    border-radius: 50%;
+}
+
+.feedback .body .feedback-info .forward-btn:hover {
+    opacity: 0.85;
+}
+
+.feedback .body .feedback-info .cta-btn .forward-btn:first-child {
+    margin-right: 30px;
+}
+
+.feedback .body .people-img {
+    position: relative;
+    width: 58%;
+}
+
+.feedback .body .people-img .people:nth-child(1) {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .body .people-img .people:nth-child(2) {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .body .people-img .people:nth-child(3) {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .body .people-img .people:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    right: 389px;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .body .people-img .people:nth-child(5) {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .body .people-img .people:nth-child(6) {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
